@@ -5,7 +5,7 @@ from fastapi import HTTPException, Depends
 from fastapi_sqlalchemy import db
 from pydantic import BaseModel
 
-from main import get_config
+from superagi.config.config import get_config  # updated import statement
 from superagi.helper.auth import get_user_organisation
 from superagi.models.agent import Agent
 from superagi.models.agent_config import AgentConfiguration
