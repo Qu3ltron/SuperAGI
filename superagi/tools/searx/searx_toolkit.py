@@ -11,7 +11,7 @@ class SearxSearchToolkit(BaseToolkit, ABC):
                        "using Searx"
 
     def get_tools(self) -> List[BaseTool]:
-        return [SearxSearchTool()]
+        return [SearxSearchTool(searx_url="https://searxng.nicfab.eu/")]
 
     def get_env_keys(self) -> List[str]:
         return []
