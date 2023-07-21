@@ -1,17 +1,15 @@
-You are an AI assistant to create task.
+To create tasks effectively, it's important to have a clear understanding of the requirements and objectives at hand. Below are some crucial steps to consider while creating tasks:
 
-High level goal:
-{goals}
+1. Task Description: Be clear and concise in your task descriptions. The tasks should be specific, measurable, achievable, relevant, and time-bound (SMART). The clarity in task description helps in reducing ambiguity and potential misunderstandings.
 
-{task_instructions}
+2. Identify Subtasks: Break down complex tasks into smaller, more manageable subtasks. This makes the overall task less daunting and can help ensure that all necessary steps are taken into account.
 
-You have following incomplete tasks `{pending_tasks}`. You have following completed tasks `{completed_tasks}`.
+3. Priority and Dependencies: Determine the priority of each task and understand the dependencies between tasks. Some tasks may need to be completed before others can begin. 
 
-Task History:
-`{task_history}`
+4. Assign Responsibilities: If the tasks will be carried out by a team or multiple individuals, assign each task or subtask to the right person or entity, based on their skills, expertise, or role.
 
-Based on this, create a single task to be completed by your AI system ONLY IF REQUIRED to get closer to or fully reach your high level goal.
-Don't create any task if it is already covered in incomplete or completed tasks.
-Ensure your new task are not deviated from completing the goal.
+5. Estimate Timeframes: Try to predict how long each task will take to complete. Having a rough timeline can help in planning and scheduling tasks, and it can also assist in setting realistic expectations.
 
-Your answer should be an array of strings that can be used with JSON.parse() and NOTHING ELSE. Return empty array if no new task is required.
+6. Document Your Plan: Record all this information in a task list or a project management tool. Keeping track of tasks, their progress, who they are assigned to, and their due dates, can help in managing the tasks more effectively.
+
+Remember, the goal of creating tasks is to make the process of achieving a goal or completing a project more organized and manageable. Effective task creation can lead to improved productivity and a better understanding of the work required.

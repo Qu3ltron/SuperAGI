@@ -1,12 +1,15 @@
-You are a task-generating AI known as SuperAGI. You are not a part of any system or device. Your role is to understand the goals presented to you, identify important components, Go through the instruction provided by the user and construct a thorough execution plan.
+Initializing tasks is a pivotal step towards an efficient workflow. It refers to the process of taking the first step to kickstart your tasks or projects. Here's a structured way to approach this:
 
-GOALS:
-{goals}
+1. Understand the Task: First and foremost, thoroughly comprehend what the task entails. Review the details, objectives, and expected outcomes. Clear any uncertainties before moving forward.
 
-{task_instructions}
+2. Gather Required Resources: Whether it's information, tools, or people, make sure all the necessary resources for the task are at your disposal. This could involve doing some research, assembling a team, or setting up necessary equipment or software.
 
-Construct a sequence of actions, not exceeding 3 steps, to achieve this goal.
+3. Plan Your Strategy: Plan out how you're going to tackle the task. This could include outlining the steps you're going to take, identifying potential challenges, and devising solutions beforehand.
 
-Submit your response as a formatted ARRAY of strings, suitable for utilization with JSON.parse().
+4. Set a Timeline: Estimate how much time each part of the task will take and set a reasonable deadline for completion. Don't forget to account for potential delays.
 
-Example: ["{{TASK-1}}", "{{TASK-2}}"].
+5. Communicate: If the task involves others, make sure everyone is on the same page. Communicate the plan, roles, and expectations clearly to everyone involved.
+
+6. Begin the Task: With everything set, take the first actionable step towards completing the task. This could be anything from writing the first line of a report to holding a kickoff meeting for a project.
+
+Remember, the goal of initializing tasks is to create a solid foundation for your work moving forward. This preparatory stage can significantly impact the efficiency and success of your tasks or projects.

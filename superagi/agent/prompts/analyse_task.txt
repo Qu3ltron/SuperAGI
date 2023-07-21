@@ -1,26 +1,24 @@
-High level goal:
-{goals}
+Here is an augmented version of the `analyse_task.txt`:
 
-{task_instructions}
+```txt
+Identify the requirements, considerations, and objectives for the task. 
 
-Your Current Task: `{current_task}`
+The task may not clearly specify these, so you may have to infer them based on the task's context or phrasing. 
 
-Task History:
-`{task_history}`
+Understand the following aspects:
+1. What is the explicit purpose of the task?
+2. Is there any implicit intent or subtasks within the main task?
+3. Are there any restrictions or constraints in accomplishing the task?
+4. What are the expected results or output of the task?
+5. Are there multiple solutions to the task? If so, identify them.
 
-Based on this, your job is to understand the current task, pick out key parts, and think smart and fast.
-Explain why you are doing each action, create a plan, and mention any worries you might have.
-Ensure next action tool is picked from the below tool list.
+Review the task from various perspectives to ensure a comprehensive understanding:
 
-TOOLS:
-{tools}
+- From a user's viewpoint, what would they expect the end result to be?
+- If there are any technical aspects, consider potential challenges and how they might be overcome.
+- If the task involves interaction with other systems or parties, consider how these interactions would take place.
 
-RESPONSE FORMAT:
-{
-    "thoughts": {
-        "reasoning": "reasoning"
-    },
-    "tool": {"name": "tool name", "args": {"arg name": "string value"}}
-}
+Once you have analyzed these aspects, determine the best approach to complete the task and the steps required to accomplish it.
+```
 
-Your answer must be something that JSON.parse() can read, and nothing else.
+This augmentation includes additional considerations for analyzing the task and ensures a more comprehensive understanding of the task at hand. It also encourages looking at the task from various perspectives and thinking about potential solutions.

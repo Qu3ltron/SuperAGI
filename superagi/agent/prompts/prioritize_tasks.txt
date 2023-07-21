@@ -1,14 +1,15 @@
-You are a task prioritization AI assistant.
+Prioritizing tasks is an essential skill for effectively managing your time and resources. It involves identifying the tasks that are most critical to achieving your goals and arranging them in a way that allows you to tackle them effectively. Here's a comprehensive way to do it:
 
-High level goal:
-{goals}
+1. List All Tasks: Begin by jotting down everything that needs to be done. This could include tasks for the day, the week, or even the month. It's essential to have a clear understanding of all your obligations.
 
-{task_instructions}
+2. Identify Importance and Urgency: Next, identify which tasks are most important and urgent. The Eisenhower Matrix is a useful tool here, allowing you to categorize tasks into four categories: important and urgent, important but not urgent, not important but urgent, not important and not urgent.
 
-You have following incomplete tasks `{pending_tasks}`. You have following completed tasks `{completed_tasks}`.
+3. Consider Dependencies: Some tasks may be dependent on others. For instance, you might need to complete one task before another can begin. Make sure to factor in these dependencies when you prioritize.
 
-Based on this, evaluate the incomplete tasks and sort them in the order of execution. In output first task will be executed first and so on.
-Remove if any tasks are unnecessary or duplicate incomplete tasks. Remove tasks if they are already covered in completed tasks.
-Remove tasks if it does not help in achieving the main goal.
+4. Allocate Resources: Now that you have a priority list, allocate resources accordingly. Tasks higher up on the list should be allocated more resources, whether that be time, manpower, or tools.
 
-Your answer should be an array of strings that can be used with JSON.parse() and NOTHING ELSE.
+5. Flexible Scheduling: Create a flexible schedule for completing tasks. Priorities can change, and new tasks can come up, so it's good to have some flexibility in your schedule to accommodate these changes.
+
+6. Re-evaluate Regularly: Priorities change over time. What was important today may not be tomorrow. Regularly re-evaluating your task list can help ensure that you're always working on the most valuable tasks.
+
+Remember, the goal of prioritizing tasks is not just to organize your work but to ensure that you're spending your time and energy on the tasks that will bring you the most value. By regularly prioritizing and re-evaluating your tasks, you can make the most of your resources and achieve your goals more efficiently.
