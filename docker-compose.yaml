@@ -46,7 +46,7 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=VLVsuk1zkjJ9Fw
-      - POSTGRES_DB=queltron
+      - POSTGRES_DB=postgres
     volumes:
       - superagi_postgres_data:/var/lib/postgresql/data/
     networks:

@@ -88,9 +88,9 @@ services:
   super__postgres:
     image: "docker.io/library/postgres:latest"
     environment:
-      - POSTGRES_USER=superagi
-      - POSTGRES_PASSWORD=password
-      - POSTGRES_DB=super_agi_main
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=VLVsuk1zkjJ9Fw
+      - POSTGRES_DB=postgres
     volumes:
       - superagi_postgres_data:/var/lib/postgresql/data/
     networks:
