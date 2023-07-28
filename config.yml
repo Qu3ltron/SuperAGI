@@ -120,4 +120,3 @@ REDIS_VECTOR_STORE_URL: redis-18946.c91.us-east-1-3.ec2.cloud.redislabs.com:1894
 ## To use Qdrant for vector store
 QDRANT_PORT: 6333
 QDRANT_HOST_NAME: 0.0.0.0
-grpc_port: 6334

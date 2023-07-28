@@ -48,6 +48,7 @@ services:
       - POSTGRES_USER=superagi
       - POSTGRES_PASSWORD=password
       - POSTGRES_DB=super_agi_main
+      - GRPC_PORt=6334
     volumes:
       - superagi_postgres_data:/var/lib/postgresql/data/
     networks:
