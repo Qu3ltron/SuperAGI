@@ -1,0 +1,22 @@
+ngrok                                                                                                   (Ctrl+C to quit)                                                                                                                        🤯 Try the ngrok Kubernetes Ingress Controller: https://ngrok.com/s/k8s-ingress
+
+Session Status                online
+Account                       artaud.iru@gmail.com (Plan: Free)
+Update                        update available (version 3.3.3, Ctrl-U to update)
+Version                       3.3.3
+Region                        United States (us)
+Latency                       121ms
+Web Interface                 http://0.0.0.0:4040                                                                       Forwarding                    https://upright-adder-natural.ngrok-free.app -> http://localhost:80
+
+Connections                   ttl     opn     rt1     rt5     p50     p90
+                              0       0       0.00    0.00    0.00    0.00            
+
+
+
+qtron - API
+
+2TqtjQXMYaTf74nWDhcA2SADnWS_7PgU4JViMjBo4dupbpLJ3   
+
+Tunnel token 
+
+2TqtqwIFercJJSO5X9G4eQnMdTX_3Z7URxPy2sZm29VJtjWJ9                                                                                                              
